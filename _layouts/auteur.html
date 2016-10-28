@@ -16,11 +16,11 @@
  		  	<div class="well well-team">
 		    <div class="row">
 		    	<div class="col-sm-3 center-xs">
-		    		<img class="avatar avatar-page" src="{{site.baseurl}}/{{page.avatar}}" alt="">
+		    		<img class="avatar_image avatar_image-page" src="{{site.baseurl}}/{{page.avatar_image}}" alt="">
 		    	</div>
 		    	<div class="col-sm-9 center-xs">
 		    		<p class="lead" style="margin-top:15px"><b>{{page.title}}</b><br>
-		    		{{page.description}}</p>
+		    		{{page.content}}</p>
 		    		<i class="fa fa-twitter-square" aria-hidden="true"></i> <a href="https://twitter.com/{{page.twitter_username}}" target="_blank"> <b>{{page.twitter_username}}</b></a>
 		    	</div>
     		</div>
@@ -32,10 +32,10 @@
  		<br>
  		<br>
 
-          {% assign my_posts = site.posts | where:"auteur", page.title %}
+          {% assign my_posts = site.posts | where:"membre", page.title %}
           {% for post in my_posts %}
 		  <h1><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h1>
-		  <p class= "lead">{{post.extrait}}</p>
+		  <p class= "lead">{{post.post_description}}</p>
 		  <a class="btn btn-primary" href="{{site.baseurl}}{{post.url}}">Lire plus <i class="fa fa-chevron-right" aria-hidden="true" style="padding-left:10px"></i></a> 
 
 		   <hr>

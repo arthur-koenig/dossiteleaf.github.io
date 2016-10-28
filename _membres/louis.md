@@ -2,7 +2,6 @@
 title: Louis
 layout: auteur
 twitter_username:
-description:
-avatar: img/medias/team_louis.jpg
+avatar_image: img/medias/team_louis.jpg
 ---
 

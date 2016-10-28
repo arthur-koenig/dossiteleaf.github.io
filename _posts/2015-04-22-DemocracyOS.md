@@ -1,15 +1,16 @@
 ---
 title: En 2015, réinventons la démocratie
-date: 2015-04-22 00:00:00 Z
+date: 2015-04-22
+layout: post
 tags:
 - presse
-hero: img/medias/z_democracy-1.png
-layout: post
+hero_image: img/medias/z_democracy-1.png
 comments: true
-auteur: Valentin Chaput
-customclass: 'earlybird'
-description_hero: Les débuts de DemocracyOS France
-extrait: En 2015, alors que la défiance envers le « système » politique est à son
+membre: Valentin Chaput
+customclass: 
+- earlybird
+hero_image_subtitle: Les débuts de DemocracyOS France
+post_description: En 2015, alors que la défiance envers le « système » politique est à son
   paroxysme, nous pensons qu’il est temps d’utiliser DemocracyOS en France
 ---
 

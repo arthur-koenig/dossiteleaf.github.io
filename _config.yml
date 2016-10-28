@@ -1,6 +1,19 @@
----
-title: DemocracyOS France
-timezone: UTC
+
+title: DemocracyOS siteleaf
+email: contact@democracyos.eu
+description: Facilitateur de prise de décisions.
+baseurl: ""
+url: https://arthur-koenig.github.io/dossiteleaf.github.io
+twitter_username: DemocracyOS_FR
+github_username: democracy-os-fr
+github.url: dos.github.io
+gems:
+- jekyll-paginate
+paginate: 6
+paginate_path: "blog/page:num/"
+markdown: kramdown
+permalink: "blog/:title"
+
 collections:
   brands:
     title: Brands
@@ -14,69 +27,55 @@ collections:
   projets:
     title: Projets
     output: false
-  teams:
-    title: Teams
+  membres:
+    title: membres
     output: true
-  uploads:
-    title: Uploads
-    output: true
+
 defaults:
 - scope:
-    path: ''
-    type: posts
+    path: ""
+    type: "posts"
   values:
-    layout: post
-    hero: ''
-    customclass: ''
+    layout: "post"
     tags: []
-    description_hero: ''
-    extrait: ''
-    auteur: ''
-    comments: 'true'
+    hero_image: ""
+    customclass: ""
+    hero_image_subtitle: ""
+    post_description: ""
+    membre: ""
+    comments: "true"
 - scope:
-    path: ''
-    type: teams
+    path: ""
+    type: "membres"
   values:
-    layout: auteur
-    avatar: ''
-    twitter_username: ''
-    description: ''
+    layout: "auteur"
+    avatar_image: ""
+    twitter_username: ""
 - scope:
-    path: ''
-    type: projets
+    path: ""
+    type: "projets"
   values:
-    visuel: ''
-    background: ''
-    link: ''
-    description: ''
+    projet_image: ""
+    projet_background_color: ""
+    lien_bouton_projet: ""
+    projet_description: ""
 - scope:
-    path: ''
-    type: brands
+    path: ""
+    type: "brands"
   values:
-    logo: ''
-    link: ''
+    logo_image: ""
+    link: ""
 - scope:
-    path: ''
-    type: events
+    path: ""
+    type: "events"
   values:
-    end_date: ''
-    type: ''
-    visuel: ''
-    background: ''
-    full_frame: ''
-    description: ''
-    bouton: ''
-    link: ''
-email: contact@democracyos.eu
-description: Facilitateur de prise de décisions.
-baseurl: ''
-url: https://arthur-koenig.github.io/dos.github.io
-twitter_username: DemocracyOS_FR
-github_username: democracy-os-fr
-github.url: dos.github.io
-gems:
-- jekyll-paginate
-paginate: 6
-paginate_path: "blog/page:num/"
-markdown: kramdown
-permalink: "blog/:title"
+    start_date: ""
+    end_date: ""
+    event_type: ""
+    event_image:
+    event_background_color:
+    full_frame: ""
+    event_info: ""
+    texte_bouton: ""
+    lien_bouton: ""
+

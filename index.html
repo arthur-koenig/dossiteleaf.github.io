@@ -6,7 +6,7 @@ layout: homepage
 
      <blockquote style="text-align:left">
   <h1 >La démocratie doit se réinventer à l’heure d’internet.</h1>
-  <footer>Extrait de notre <a href=""><cite title="Source Title" style="border-bottom:dotted 1px black">Manifeste</cite></footer></a>
+  <footer>post_description de notre <a href=""><cite title="Source Title" style="border-bottom:dotted 1px black">Manifeste</cite></footer></a>
 </blockquote>
 <p class="lead"> DemocracyOS est une plateforme <b>open source</b> : libre, gratuite, indépendante, réplicable. Son but est de favoriser la participation de tous à la fabrique de décisions politiques, à l'heure où internet a changé presque tous les aspects de notre vie quotidienne... sauf le fonctionnement de nos démocraties.<br>
 <br>Notre mission est d' accompagner et rassembler des mouvements citoyens, des institutions, des start-ups, des associations et tous types de structure prêts à faire le pari de la démocratie participative en ligne grâce à un outil libre, simple et efficace. <br><br>Nous œuvrons pour promouvoir une culture de participation citoyenne nouvelle génération et favoriser l’émergence d’un écosystème de technologies citoyennes (civic- tech) en France.
@@ -123,7 +123,7 @@ layout: homepage
       
 {% assign events = site.events | sort: 'date' | reverse %}
  {% for event in events limit:1 %}
-<h1 class="text-center fatou" style="color:{{event.background}}">{{event.type}}</h1>
+<h1 class="text-center fatou" style="color:{{event.event_background_color}}">{{event.event_type}}</h1>
 
         {% include events.html %}
             {% endfor %}
@@ -155,11 +155,11 @@ layout: homepage
 
         <div class="well well-homepage">
             
-              <a href="{{site.baseurl}}{{post.url}}"><img class=" img-responsive {{post.customclass}}" src="{{ post.hero }}"></a>
+              <a href="{{site.baseurl}}{{post.url}}"><img class=" img-responsive {{post.customclass}}" src="{{ post.hero_image }}"></a>
        
         <p class="lead">
           <b>{{post.title}}</b><br>
-          {{post.extrait | truncatewords: 20}} <br><a href="{{site.baseurl}}{{post.url}}"><button class="btn-primary btn btn-xs">lire plus</button></a>
+          {{post.post_description | truncatewords: 20}} <br><a href="{{site.baseurl}}{{post.url}}"><button class="btn-primary btn btn-xs">lire plus</button></a>
 
         </p>
         </div>

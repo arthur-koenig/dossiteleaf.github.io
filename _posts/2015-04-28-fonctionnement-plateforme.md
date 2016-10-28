@@ -1,14 +1,14 @@
 ---
 title: Comment fonctionne notre plateforme?
-date: 2015-04-28 00:00:00 Z
+date: 2015-04-28
+layout: post
 tags:
 - presse
-hero: img/medias/z_banner-1.png
-layout: post
+hero_image: img/medias/z_banner-1.png
 comments: true
-auteur: Virgile Deville
-description_hero: Exemple avec la loi renseignement
-extrait: Exemple avec la loi renseignement
+membre: Virgile Deville
+hero_image_subtitle: Exemple avec la loi renseignement
+post_description: Exemple avec la loi renseignement
 ---
 
 Dans un <a href="{{site.baseurl}}DemocracyOS">article précédent</a>, nous vous faisions part de notre volonté de réinventer la démocratie, étape par étape.

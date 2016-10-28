@@ -2,7 +2,6 @@
 title: Angie
 layout: auteur
 twitter_username:
-description:
-avatar: img/medias/team_angie.jpg
+avatar_image: img/medias/team_angie.jpg
 ---
 

@@ -2,7 +2,6 @@
 title: Sylvain
 layout: auteur
 twitter_username:
-description:
-avatar: img/medias/team_sylvain.jpg
+avatar_image: img/medias/team_sylvain.jpg
 ---
 

@@ -32,8 +32,8 @@
 		</h5>
   -->
 
-                {% assign teams = site.teams | where:"title", page.auteur %}
-                {% for team in teams %}
+                {% assign membres = site.membres | where:"title", page.membre %}
+                {% for team in membres %}
                 <h5><i class="fa fa-clock-o" aria-hidden="true"></i> Posté le {% assign m = page.date | date: "%-m" %}
 			{{ page.date | date: "%-d" }}
 			{% case m %}
@@ -52,7 +52,7 @@
 			{% endcase %}
 			{{ page.date | date: "%Y" }} - par <a href="{{site.baseurl}}{{team.url}}"><b>{{team.title}}</b></a>
                     {% assign name = team.title | split:' ' | first %}
-                <img class="avatar avatar-blog" src="{{site.baseurl}}/{{team.avatar}}" alt="{{name}}"></h5>
+                <img class="avatar_image avatar_image-blog" src="{{site.baseurl}}/{{team.avatar_image}}" alt="{{name}}"></h5>
                 
                 {% endfor %}
     

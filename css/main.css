@@ -252,7 +252,7 @@ section .team .member {
 .member a{
   border-bottom: 0px;
 }
-section .team .avatar {
+section .team .avatar_image {
   width: 80px;
   height: 80px;
   margin: 15px ;
@@ -324,7 +324,7 @@ section.container.video {
 h2 small {
   font-size: 55%;
 }
-.avatar{
+.avatar_image{
   max-width: 80px;
   margin:10px;
 }
@@ -541,41 +541,41 @@ a:hover{
   margin-top: -170px;
   }
 }
-.hero-bg{
+.hero_image-bg{
   min-height:550px;
   height: auto;
 }
-.hero-mini{
+.hero_image-mini{
   min-height:100px;
   min-width:100px;
 }
 @media (max-width: 769px) {
-  .hero-bg {
+  .hero_image-bg {
     min-height:350px;
     }
   }
-.hero-title{
+.hero_image-title{
   font-weight:900;
   font-size:50px;
   color:white;
   padding-top:50px;
 }
-.hero-title a{
+.hero_image-title a{
   border-bottom:0px;
 }
 @media (min-width: 769px) {
-  .hero-title{
+  .hero_image-title{
   padding-top:110px;
 }
 }
-.hero-text{
+.hero_image-text{
   font-weight:400;
   font-size:45%;
   color:white;
   padding-bottom:40px;
 }
 @media (max-width: 769px) {
-  .hero-title {
+  .hero_image-title {
     font-size:40px;
     }
   }
@@ -944,11 +944,11 @@ section{
 .projects h1, .projects p{
 color: rgba(255, 255, 255, 0.9);
 }
-.avatar-blog{
+.avatar_image-blog{
   max-width: 40px;
   border-radius: 50%;
 }
-.avatar-page{
+.avatar_image-page{
   max-width: 80px;
   border-radius:4px;
   border: 1px solid #cecece;

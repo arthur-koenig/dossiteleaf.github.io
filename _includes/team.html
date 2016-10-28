@@ -1,8 +1,8 @@
 
 <ul class="list-inline team clearfix">
-  {% for team in site.teams %}
+  {% for team in site.membres %}
     <li class="member">
-      <img class= "avatar img-circle" src="{{site.baseurl}}/{{ team.avatar }}">
+      <img class= "avatar_image img-circle" src="{{site.baseurl}}/{{ team.avatar_image }}">
       {% assign name = team.title | split:' ' | first %}
       <div class="name"> {{ name }} </div>
     </li>
@@ -11,7 +11,7 @@
     <br>
   <li class="member">             
     <a href="https://www.helloasso.com/" target="_blank">
-    <i class="avatar fa fa-inverse fa-circle fa-user-plus fa-3x " aria-hidden="true"></i>
+    <i class="avatar_image fa fa-inverse fa-circle fa-user-plus fa-3x " aria-hidden="true"></i>
     </a>                         
     <div class="name"> Devenir membre </div>
   </li>
