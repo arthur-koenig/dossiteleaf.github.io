@@ -9,6 +9,6 @@ projet_description: 'Alors que le projet de loi renseignement était débattu au
   : les boîtes noires, la CNCTR et les objectifs du projet de loi. La communauté réunie
   s''est positionnée à 86% contre le texte, contre 77% des députés qui se sont exprimés
   en sa faveur.'
-layout: null
+layout: 
 ---
 

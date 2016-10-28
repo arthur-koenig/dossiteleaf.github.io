@@ -1,9 +1,9 @@
 ---
 title: Comment fonctionne notre plateforme?
-date: 2015-04-28
-layout: post
+date: 2015-04-28 00:00:00 Z
 tags:
 - presse
+layout: post
 hero_image: img/medias/z_banner-1.png
 comments: true
 membre: Virgile Deville

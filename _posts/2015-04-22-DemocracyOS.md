@@ -1,17 +1,17 @@
 ---
 title: En 2015, réinventons la démocratie
-date: 2015-04-22
-layout: post
+date: 2015-04-22 00:00:00 Z
 tags:
 - presse
+layout: post
 hero_image: img/medias/z_democracy-1.png
 comments: true
 membre: Valentin Chaput
-customclass: 
+customclass:
 - earlybird
 hero_image_subtitle: Les débuts de DemocracyOS France
-post_description: En 2015, alors que la défiance envers le « système » politique est à son
-  paroxysme, nous pensons qu’il est temps d’utiliser DemocracyOS en France
+post_description: En 2015, alors que la défiance envers le « système » politique est
+  à son paroxysme, nous pensons qu’il est temps d’utiliser DemocracyOS en France
 ---
 
 > « Démocratie [n.f.]: régime qui permet aux citoyens de se prononcer tous les cinq ou six ans en faveur de leurs représentants, qui ne leur demanderont ensuite pas leur avis jusqu’à la prochaine campagne électorale »

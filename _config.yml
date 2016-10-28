@@ -1,19 +1,6 @@
-
+---
 title: DemocracyOS siteleaf
-email: contact@democracyos.eu
-description: Facilitateur de prise de décisions.
-baseurl: ""
-url: https://arthur-koenig.github.io/dossiteleaf.github.io
-twitter_username: DemocracyOS_FR
-github_username: democracy-os-fr
-github.url: dos.github.io
-gems:
-- jekyll-paginate
-paginate: 6
-paginate_path: "blog/page:num/"
-markdown: kramdown
-permalink: "blog/:title"
-
+timezone: UTC
 collections:
   brands:
     title: Brands
@@ -21,58 +8,75 @@ collections:
   events:
     title: Events
     output: false
+  posts:
+    title: Posts
+    output: true
   projets:
     title: Projets
     output: false
+  uploads:
+    title: Uploads
+    output: true
   membres:
     title: membres
     output: true
-
 defaults:
 - scope:
-    path: ""
-    type: "posts"
+    path: ''
+    type: posts
   values:
-    layout: "post"
+    layout: post
     tags: []
-    hero_image: ""
-    customclass: ""
-    hero_image_subtitle: ""
-    post_description: ""
-    membre: ""
-    comments: "true"
+    hero_image: ''
+    customclass: ''
+    hero_image_subtitle: ''
+    post_description: ''
+    membre: ''
+    comments: 'true'
 - scope:
-    path: ""
-    type: "membres"
+    path: ''
+    type: membres
   values:
-    layout: "auteur"
-    avatar_image: ""
-    twitter_username: ""
+    layout: auteur
+    avatar_image: ''
+    twitter_username: ''
 - scope:
-    path: ""
-    type: "projets"
+    path: ''
+    type: projets
   values:
-    projet_image: ""
-    projet_background_color: ""
-    lien_bouton_projet: ""
-    projet_description: ""
+    projet_image: ''
+    projet_background_color: ''
+    lien_bouton_projet: ''
+    projet_description: ''
 - scope:
-    path: ""
-    type: "brands"
+    path: ''
+    type: brands
   values:
-    logo_image: ""
-    link: ""
+    logo_image: ''
+    link: ''
 - scope:
-    path: ""
-    type: "events"
+    path: ''
+    type: events
   values:
-    start_date: ""
-    end_date: ""
-    event_type: ""
-    event_image:
-    event_background_color:
-    full_frame: ""
-    event_info: ""
-    texte_bouton: ""
-    lien_bouton: ""
-
+    start_date: ''
+    end_date: ''
+    event_type: ''
+    event_image: 
+    event_background_color: 
+    full_frame: ''
+    event_info: ''
+    texte_bouton: ''
+    lien_bouton: ''
+email: contact@democracyos.eu
+description: Facilitateur de prise de décisions.
+baseurl: ''
+url: https://arthur-koenig.github.io/dossiteleaf.github.io
+twitter_username: DemocracyOS_FR
+github_username: democracy-os-fr
+github.url: dos.github.io
+gems:
+- jekyll-paginate
+paginate: 6
+paginate_path: blog/page:num/
+markdown: kramdown
+permalink: blog/:title

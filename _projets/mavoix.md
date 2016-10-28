@@ -1,6 +1,6 @@
 ---
 title: 'Instance du collectif #MAVOIX'
-layout: null
+layout: 
 projet_background_color: "#C7003A"
 projet_image: img/medias/projet_mavoix.png
 projet_description: 'Le collectif #MAVOIX qui souhaite faire élire des députés augmentés*,
