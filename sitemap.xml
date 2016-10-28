@@ -1,50 +1,60 @@
----
-layout: 
----
-
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>{{ site.url }}/</loc>
-    <lastmod>{{ site.time }}</lastmod>
+    <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/</loc>
+    <lastmod>2016-10-28 11:57:40 +0000</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     </url>
     <url>
-    <loc>{{ site.url }}/blog</loc>
-    <lastmod>{{ site.time }}</lastmod>
+    <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/blog</loc>
+    <lastmod>2016-10-28 11:57:40 +0000</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     </url>
     <url>
-    <loc>{{ site.url }}/a-propos/</loc>
-    <lastmod>{{ site.time }}</lastmod>
+    <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/a-propos/</loc>
+    <lastmod>2016-10-28 11:57:40 +0000</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
     </url>
     <url>
-    <loc>{{ site.url }}/projets/</loc>
-    <lastmod>{{ site.time }}</lastmod>
+    <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/projets/</loc>
+    <lastmod>2016-10-28 11:57:40 +0000</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     </url>
     <url>
-    <loc>{{ site.url }}/participer</loc>
-    <lastmod>{{ site.time }}</lastmod>
+    <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/participer</loc>
+    <lastmod>2016-10-28 11:57:40 +0000</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
     </url>
     <url>
-    <loc>{{ site.url }}/presse</loc>
-    <lastmod>{{ site.time }}</lastmod>
+    <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/presse</loc>
+    <lastmod>2016-10-28 11:57:40 +0000</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     </url>
-     {% for post in site.posts %}
+     
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-        <lastmod>{{ post.date }}</lastmod>
+      <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/blog/florence</loc>
+        <lastmod>2016-09-06 00:00:00 +0000</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.9</priority>
     </url>
-    {% endfor %}
+    
+    <url>
+      <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/blog/fonctionnement-plateforme</loc>
+        <lastmod>2015-04-28 00:00:00 +0000</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.9</priority>
+    </url>
+    
+    <url>
+      <loc>https://arthur-koenig.github.io/dossiteleaf.github.io/blog/DemocracyOS</loc>
+        <lastmod>2015-04-22 00:00:00 +0000</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.9</priority>
+    </url>
+    
 </urlset>

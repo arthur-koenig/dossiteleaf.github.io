@@ -1,13 +1,21 @@
----
-layout: 
----
-
 [
-{% for post in site.posts %}
+
     {
-      "title"     : "{{ post.title | escape }}",
-      "url"       : "{{ site.baseurl }}/{{ post.url }}",
-      "thumbnail" : "{{ site.baseurl }}/{{ post.hero_image }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "title"     : "Florence",
+      "url"       : "//blog/florence",
+      "thumbnail" : "/img/medias/florence-3-1.jpg"
+    } ,
+  
+    {
+      "title"     : "Comment fonctionne notre plateforme?",
+      "url"       : "//blog/fonctionnement-plateforme",
+      "thumbnail" : "/img/medias/z_banner-1.png"
+    } ,
+  
+    {
+      "title"     : "En 2015, réinventons la démocratie",
+      "url"       : "//blog/DemocracyOS",
+      "thumbnail" : "/img/medias/z_democracy-1.png"
+    } 
+  
 ]
