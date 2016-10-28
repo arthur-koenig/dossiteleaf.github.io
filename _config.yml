@@ -21,9 +21,6 @@ collections:
   events:
     title: Events
     output: false
-  posts:
-    title: Posts
-    output: true
   projets:
     title: Projets
     output: false
