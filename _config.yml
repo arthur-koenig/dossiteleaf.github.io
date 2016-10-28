@@ -69,7 +69,7 @@ defaults:
     lien_bouton: ''
 email: contact@democracyos.eu
 description: Facilitateur de prise de décisions.
-baseurl: ''
+baseurl: 
 url: https://arthur-koenig.github.io/dossiteleaf.github.io
 twitter_username: DemocracyOS_FR
 github_username: democracy-os-fr
